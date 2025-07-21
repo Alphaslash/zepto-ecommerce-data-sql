@@ -1,4 +1,4 @@
--- 📊 Basic Table Inspection
+--  Basic Table Inspection
 SELECT COUNT(*) FROM zepto_v2;
 
 SELECT * FROM zepto_v2
@@ -26,7 +26,7 @@ MODIFY COLUMN weightInGms INT,
 MODIFY COLUMN outOfStock BOOLEAN,
 MODIFY COLUMN quantity INT;
 
--- 🔍 Data Quality Checks
+-- Data Quality Checks
 SELECT * FROM zepto_v2
 WHERE category IS NULL
    OR name IS NULL
@@ -38,7 +38,7 @@ WHERE category IS NULL
    OR outOfStock IS NULL
    OR quantity IS NULL;
 
--- 📂 Data Exploration
+-- Data Exploration
 SELECT DISTINCT category
 FROM zepto_v2
 ORDER BY category;
@@ -63,7 +63,7 @@ SET SQL_SAFE_UPDATES = 0;
 DELETE FROM zepto_v2
 WHERE mrp = 0;
 
--- 💸 Data Transformation - Convert paise to rupees
+-- Data Transformation - Convert paise to rupees
 ALTER TABLE zepto_v2
 MODIFY COLUMN mrp DECIMAL(8,2),
 MODIFY COLUMN discountedSellingPrice DECIMAL(8,2);
