@@ -90,11 +90,8 @@ ORDER BY estimated_revenue DESC;
 
 ## 📬 Let’s Connect
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/gitesh-garg/" target="_blank">
-    <img src="https://img.shields.io/badge/Let's_Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
-  </a>
-</p>
+> 📌 This project is part of my journey into **Data Analytics**.  
+> Feel free to explore the project, give feedback, or connect with me on [LinkedIn](https://www.linkedin.com/in/gitesh-garg/)
 
 ---
 
